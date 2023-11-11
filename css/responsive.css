@@ -1,0 +1,206 @@
+@media (max-width: 575.98px){    /* For small potrait */
+    .menu_icon {
+        display: block;
+        cursor: pointer;
+        font-size: 20px;
+        padding: 5px 8px;
+        background-color: #e84545;
+        color: #fff;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 9999;
+    }
+    
+    nav {
+        padding: 10px 0;
+    }
+    nav ul {
+        padding: 20px;
+        background-color: #e84545;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        z-index: 999;
+        display: none !important;
+    }
+    nav ul li a {
+        display: inline-block !important;
+        font-size: 13px !important;
+        padding: 6px 10px !important;
+    }
+
+    .visible_nav_box {
+        display: block !important;
+    }
+
+    #banner {
+        padding: 100px 0 50px 0;
+    }
+    .banner-main h1 {
+        padding: 0 10px;
+    }
+    .banner-main p {
+        padding: 0 10px;
+    }
+
+    .p-main {
+        flex-wrap: wrap;
+    }
+    .p-items {
+        width: 100%;
+        height: 280px;
+    }
+
+    .uknown-main {
+        flex-wrap: wrap;
+    }
+    .uknown-items {
+        width: 100%;
+    }
+
+    .footer-main {
+        flex-wrap: wrap;
+    }
+    .footer-items {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){    /* For small landscape */
+    .menu_icon {
+        display: block;
+        cursor: pointer;
+        font-size: 20px;
+        padding: 5px 8px;
+        background-color: #e84545;
+        color: #fff;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 9999;
+    }
+    
+    nav {
+        padding: 10px 0;
+    }
+    nav ul {
+        padding: 20px;
+        background-color: #e84545;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        z-index: 999;
+        display: none !important;
+    }
+    nav ul li a {
+        display: inline-block !important;
+        font-size: 13px !important;
+        padding: 6px 10px !important;
+    }
+
+    .visible_nav_box {
+        display: block !important;
+    }
+    .banner-main h1 {
+        padding: 0 50px;
+    }
+    .banner-main p {
+        padding: 0 50px;
+    }
+
+    .p-main {
+        flex-wrap: wrap;
+    }
+    .p-items {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){    /* For mediam tablet */
+    .menu_icon {
+        display: block;
+        cursor: pointer;
+        font-size: 20px;
+        padding: 5px 8px;
+        background-color: #e84545;
+        color: #fff;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 9999;
+    }
+    
+    nav {
+        padding: 10px 0;
+    }
+    nav ul {
+        padding: 20px;
+        background-color: #e84545;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        z-index: 999;
+        display: none !important;
+    }
+    nav ul li a {
+        display: inline-block !important;
+        font-size: 13px !important;
+        padding: 6px 10px !important;
+    }
+
+    .visible_nav_box {
+        display: block !important;
+    }
+    .banner-main h1 {
+        padding: 0 100px;
+    }
+    .banner-main p {
+        padding: 0 100px;
+    }
+    .p-main {
+        flex-wrap: wrap;
+    }
+    .p-items {
+        width: calc(33.33% - 10px);
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px){
+}
+
+@media (min-width: 1400px){ 
+}
